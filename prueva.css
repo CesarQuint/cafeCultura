@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#logo{
+    width: 6rem;
+    border-radius: 50%;
+    border: 5px solid #0f0f0f;
+    box-shadow: 0px 6px 11px rgb(255, 255, 255);
+}
+#encabezado{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.363)), url('https://apasionados-por-el-cafe.s3.amazonaws.com/wp-content/uploads/2018/12/De-donde-se-alimenta-el-cafe.png') ;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1vh;
+    align-content: center;
+    align-self: center;
+    color: #eeeeee;
+    text-shadow: -4px 2px 3px black;
+  
+}
+
+body{
+    background-color: #6a9277;
+}
+#txtencab{
+    margin-left: 1vw;
+}
+
+.bg-ama{
+    background-color: #e6bc56;
+}
+li a:hover {
+    background-color: #c79c37;
+    color: whitesmoke;
+    border-bottom: 1px solid #c79c37;
+}
+#navbarNav{
+    justify-content: center;
+}
+h2{
+    text-shadow: -2px 1px 3px #201204;
+    color: #ff275e;
+    padding: 5px 12px 5px 12px;
+
+}
+.d-block{
+    height: 30vw;
+}
+.carousel-item img{
+    margin-left: 25vw;
+}
