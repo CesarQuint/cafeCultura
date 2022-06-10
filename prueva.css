@@ -37,9 +37,7 @@ li a:hover {
     color: whitesmoke;
     border-bottom: 1px solid #c79c37;
 }
-#navbarNav{
-    justify-content: center;
-}
+
 h2{
     text-shadow: -2px 1px 3px #201204;
     color: #ff275e;
@@ -51,4 +49,18 @@ h2{
 }
 .carousel-item img{
     margin-left: 25vw;
+}
+main{
+    background-color: #fad4a8 ;
+    background: linear-gradient(to bottom,#7f440a,#f8d9bd);
+}
+.row>* {
+     padding-right:0px; 
+}
+.card-img-overlay {
+    background: linear-gradient(90deg, rgb(0 0 0 / 96%) 0%, rgba(0,0,0,0.7903536414565826) 32%, rgb(193 193 193 / 0%) 100%);
+    top: auto;
+}
+.bg-ggb{
+    background-color:#6a9277 ;
 }
