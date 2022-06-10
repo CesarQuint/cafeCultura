@@ -55,7 +55,7 @@ main{
     background: linear-gradient(to bottom,#7f440a,#f8d9bd);
 }
 .row>* {
-     padding-right:0px; 
+     padding-right:0%; 
 }
 .card-img-overlay {
     background: linear-gradient(90deg, rgb(0 0 0 / 96%) 0%, rgba(0,0,0,0.7903536414565826) 32%, rgb(193 193 193 / 0%) 100%);
@@ -64,3 +64,71 @@ main{
 .bg-ggb{
     background-color:#6a9277 ;
 }
+#estrellas{
+    width: 90%;
+    margin: auto;
+}
+#img-muestra{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;    
+}
+#img-muestra img{
+    width: 30%;
+    margin-left: 10px;
+    box-shadow: 6px 7px 10px 0px black;
+    z-index: 1;
+}
+section#img-muestra img:hover{
+    z-index: 1;
+    margin-left: 10px;
+    box-shadow: 6px 7px 10px 0px black;
+    transition: all;
+    transition:40ms;
+    opacity: 80%;
+}
+#img-muestra a{
+    margin-top: 10px;
+    display: block !important;
+}
+.ubicacion{
+    margin-left: 10%;
+    display: flex;
+    margin: auto;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+/*///////////////////// @media /////////////*/
+
+/*mobile*/
+@media screen and (max-width:480px){
+    #img-muestra img {
+        width: 70%;
+        margin-top: 2vh;
+    }
+    #img-muestra {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    h2 {
+        text-align: center;}
+}
+/*Tablet*/
+@media screen and (min-width:481px ) and (max-width:767px) {
+    #img-muestra img {
+        width: 70%;
+        margin-top: 2vh;
+    }
+    #img-muestra {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    h2 {
+        text-align: center;}
+}
+
+
