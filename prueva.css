@@ -105,6 +105,10 @@ section#img-muestra img:hover{
     padding-right: 1rem;
     padding-left: 0rem;
 }
+#contentform{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 
 /*Animaciones */
 .redess:hover{
@@ -140,6 +144,34 @@ section#img-muestra img:hover{
     }
     h2 {
         text-align: center;}
+        .col-11{
+            width: 100%;
+        }
+        .col-1{
+            width: 100%;
+            height: 10vh;
+            
+        }
+        .div4{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            
+        }
+        .div4 img{
+            width: 7vw;
+            height: 5vh;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .div4 ul{
+            flex-flow: row nowrap;
+            position: initial;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
 }
 /*Tablet*/
 @media screen and (min-width:481px ) and (max-width:767px) {
@@ -154,6 +186,34 @@ section#img-muestra img:hover{
     }
     h2 {
         text-align: center;}
+        .col-11{
+            width: 100%;
+        }
+        .col-1{
+            width: 100%;
+            height: 10vh;
+            
+        }
+        .div4{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            
+        }
+        .div4 img{
+            width: 5vw;
+            height: 5vh;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .div4 ul{
+            flex-flow: row nowrap;
+            position: initial;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
 }
 
 
