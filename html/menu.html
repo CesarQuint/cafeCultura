@@ -1,63 +1,107 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/prueva.css">
+    <title>Cafe Cultura</title>
+    
+    <link rel="icon" type="image/x-icon" href="img\favicon.ico">
+    
 </head>
-<body class="parent">
-    <header class="div1">
-        <div id="encabezado">
-            <img src="https://scontent.fpbc6-1.fna.fbcdn.net/v/t31.18172-8/24068821_1976680329279046_5283892059972201188_o.jpg?_nc_cat=107&ccb=1-6&_nc_sid=174925&_nc_eui2=AeGRD8eBz7e4lRmzDEeSC24F81xwHrGP-63zXHAesY_7rcLftyTCtJvvzz17pC_cBUIp_RnwQH2T-5hUidHBqSjT&_nc_ohc=Nj5F_H6JA5cAX_VQ921&_nc_ht=scontent.fpbc6-1.fna&oh=00_AT-x_-2N68lfXSD4Dm_FEroOzxjzluTaBFTdK_Y9Z8uehA&oe=629F143F" id="logo" alt="Logo Cafe Cultura">            <div>
-                <h1 id="main">Cafe Cultura</h1>
-                <h3>Menu</h3>
-            </div>
-        </div>    
-    </header>
-    <nav class="div2"> 
-        <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="listaEventos.html" >Eventos</a></li>
-        <li><a href="menu.html" >Menu</a></li>
-        <li><a href="galeria.html" >Galeria</a></li>
+<body class=".container-fluid">
+        <header class="row">
+          <div class="col">
+            <div id="encabezado">
+                <img src="https://scontent.fpbc6-1.fna.fbcdn.net/v/t31.18172-8/24068821_1976680329279046_5283892059972201188_o.jpg?_nc_cat=107&ccb=1-6&_nc_sid=174925&_nc_eui2=AeGRD8eBz7e4lRmzDEeSC24F81xwHrGP-63zXHAesY_7rcLftyTCtJvvzz17pC_cBUIp_RnwQH2T-5hUidHBqSjT&_nc_ohc=Nj5F_H6JA5cAX_VQ921&_nc_ht=scontent.fpbc6-1.fna&oh=00_AT-x_-2N68lfXSD4Dm_FEroOzxjzluTaBFTdK_Y9Z8uehA&oe=629F143F" id="logo" alt="Logo Cafe Cultura">       
+                    <div id="txtencab">
+                    <h1 id="main">Cafe Cultura</h1>
+                    <h3>Menu</h3>
+                </div>
+            </div> 
+         </header>
+          <!--Area de Nav-->
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-light bg-ama ">
+                    <div class="container-fluid">
+                     
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="listaEventos.html">Eventos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                          </li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+              </div>
+          </div>
+        <main class="row">
+          <div class="col-11">
+            <h2 class=" px-3 pt-1 " >Nuestra mejor seleccion</h2>
+            <h3 class=" px-3 pt-1 " >Somos un cafe especializado en brindar la mejor atencion </h3>
+          <div class="newmenu d-flex justify-content-center">
+            <img src="https://www.domingosanto.com/img/menu_restaurante-1.jpg" alt="">
+            <img src="https://www.domingosanto.com/img/menu_restaurante-1.jpg" alt="">
+          </div>
+          <section class="bg-dark mx-4 p-3 my-4">
+            <p class="text-white-50 ">Dejanos saver si quieres algo nuevo en el menu</p>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label text-white-50">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label text-white-50">Recomendacion:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+          </section>
+    
+          </div>
+          <div class="col-1 bg-dark">
+           <section>
+            <aside class="div4">
+              <ul>
+                  <li><img class="redess" src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-3-1.png" alt=""></li>
+                  <li><img class="redess" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt=""></li>
+                  <li><img class="redess" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" alt=""></li>
+                  <li><img class="redess" src="https://icones.pro/wp-content/uploads/2021/03/logo-icone-tiktok-simbolo.png" alt=""></li>
+              </ul>
+              
+          </aside>
+           </section>
+          </div>
+        </main>
+        <footer class="row">
+            <div class="col">
+              <ul class="nav justify-content-center bg-ama ">
+                <li class="nav-item">
+                  <a class="nav-link" href="html/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Copyright 2020-2021</a>
+                </li>
+               
+              </ul>
+              </div>
+            </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    </ul>
-</nav>
-    <main class="div3">
-        <h2>Nuestra mejor seleccion</h2>
-        <h3>Somos un cafe especializado en brindar la mejor atencion </h3>
-      <div class="newmenu">
-        <img src="https://www.domingosanto.com/img/menu_restaurante-1.jpg" alt="">
-        <img src="https://www.domingosanto.com/img/menu_restaurante-1.jpg" alt="">
-      </div>
-
-        <section id="rcd">
-
-            <form id="recomendacion">
-                <label for="Recomendacion">Danos tus recomendaciones </label>
-                <input id="inpre" type="text" placeholder="Recomendacion" name="Recomendacion">
-                <input type="submit">
-            </form>
-        </section>
-       
-    </main>
-    <aside class="div4">
-        <ul>
-            <li><img class="redess" src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-3-1.png" alt=""></li>
-            <li><img class="redess" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt=""></li>
-            <li><img class="redess" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" alt=""></li>
-            <li><img class="redess" src="https://icones.pro/wp-content/uploads/2021/03/logo-icone-tiktok-simbolo.png" alt=""></li>
-        </ul>
-        
-    </aside>
-    <footer class="div5">
-        <ul>
-             <li id="contacto"><a href="contacto.html">Contacto</a></li>
-             <li id ="cc"><a>C 2022</a></li>
-         </ul>
-     </footer>
 </body>
 </html>

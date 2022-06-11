@@ -109,6 +109,16 @@ section#img-muestra img:hover{
     margin-top: 10%;
     margin-bottom: 10%;
 }
+/*Menu*/
+
+.newmenu {
+    margin-top: 10px;
+    flex-flow: row wrap;
+    align-items: center;}
+.newmenu img{
+    width: 40%;
+    margin-left: 1vw;
+}
 
 /*Animaciones */
 .redess:hover{
@@ -127,8 +137,6 @@ section#img-muestra img:hover{
         border-bottom: 2px solid #72d693;
       }
 }
-
-
 /*///////////////////// @media /////////////*/
 
 /*mobile*/
@@ -172,6 +180,12 @@ section#img-muestra img:hover{
             display: flex;
             justify-content: space-evenly;
         }
+        .newmenu{
+            display: flex;
+            flex-flow: column wrap;
+        }
+        .newmenu img {
+            width: 80%;}
 }
 /*Tablet*/
 @media screen and (min-width:481px ) and (max-width:767px) {
@@ -214,6 +228,10 @@ section#img-muestra img:hover{
             display: flex;
             justify-content: space-evenly;
         }
+        .newmenu{
+            display: flex;
+            flex-flow: column wrap;
+        }
+        .newmenu img {
+            width: 80%;}
 }
-
-
