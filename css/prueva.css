@@ -1,7 +1,4 @@
-*{
-    padding: 0px;
-    margin: 0px;
-}
+
 #logo{
     width: 6rem;
     border-radius: 50%;
@@ -24,9 +21,6 @@
 
 body{
     background-color: #6a9277;
-}
-#txtencab{
-    margin-left: 1vw;
 }
 
 .bg-ama{
@@ -120,6 +114,46 @@ section#img-muestra img:hover{
     margin-left: 1vw;
 }
 
+#mainEvent{
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+}
+/*Galeria */
+#instalaciones{
+    display:flex;
+    flex-flow: row wrap;
+    border-bottom: 3px solid #3a240e;
+    justify-content: space-evenly;
+    
+}
+#instalaciones img{
+    width: 30%;
+    height: auto;
+    
+    box-shadow:-8px 10px 13px 2px #3a240e;
+    
+}
+#gal{
+    width: 90%;
+    margin:auto ;
+}
+#invi{
+    background-color: #fad4a8;
+    display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+#videos{
+    display: flex;
+    margin-top: 15px;
+    background-color: #222222;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
 /*Animaciones */
 .redess:hover{
     animation: rotation 2s  infinite linear ;
@@ -129,13 +163,39 @@ section#img-muestra img:hover{
 @keyframes rotation {
     from {
         transform: rotate(0deg);
-        border-bottom: 2px solid #3b31c7;
+        border-bottom: 1vh solid #3b31c7;
      
       }
       to {
         transform: rotate(359deg);
-        border-bottom: 2px solid #72d693;
+        border-bottom: 1vh solid #72d693;
       }
+}
+
+#instalaciones img:hover{
+    animation:  1s linear infinite;
+    animation-name: elevar;
+    animation-timing-function:ease;
+    z-index: 1;
+}
+@keyframes elevar {
+    0%{
+        transform:translate(0px,0px) ;
+       
+    }
+    25%{
+        border-bottom: 2px solid #72d693;
+    }
+    50%{
+        transform:translate(0px,-20px) ;
+        border-bottom: 2px solid #72d693;
+    }
+    75%{
+        border-bottom: 2px solid #72d693;
+    }
+    100%{
+        transform:translate(0px,0px) ;
+    }
 }
 /*///////////////////// @media /////////////*/
 
@@ -167,8 +227,8 @@ section#img-muestra img:hover{
             
         }
         .div4 img{
-            width: 7vw;
-            height: 5vh;
+            width: 6vw;
+            height: 4vh;
             display: flex;
             flex-flow: row wrap;
         }
@@ -216,7 +276,7 @@ section#img-muestra img:hover{
         }
         .div4 img{
             width: 5vw;
-            height: 5vh;
+            height: 4vh;
             display: flex;
             flex-flow: row wrap;
         }
