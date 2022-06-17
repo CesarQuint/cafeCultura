@@ -1,0 +1,109 @@
+ 
+body{
+    main{
+        background-color: #fad4a8 ;
+        background: linear-gradient(to bottom,#7f440a,#f8d9bd);
+    }
+    background-color: #6a9277;
+    .bg-ama{
+        background-color: #e6bc56;
+    }
+    li a:hover {
+        background-color: #c79c37;
+        color: whitesmoke;
+        border-bottom: 1px solid #c79c37;
+    }
+    h2{
+        text-shadow: -2px 1px 3px #201204;
+        color: #ff275e;
+        padding: 5px 12px 5px 12px;
+   
+    }
+    #encabezado{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.363)), url('https://apasionados-por-el-cafe.s3.amazonaws.com/wp-content/uploads/2018/12/De-donde-se-alimenta-el-cafe.png') ;
+        background-position:center;
+        background-size: cover;
+        display: flex;
+        flex-flow: row wrap;
+        padding: 1vh;
+        align-content: center;
+        align-self: center;
+        color: #eeeeee;
+        text-shadow: -4px 2px 3px black;
+    }
+    #logo{
+    width: 6rem;
+    border-radius: 50%;
+    border: 5px solid #0f0f0f;
+    box-shadow: 0px 6px 11px rgb(255, 255, 255);
+    }
+    #contentform{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .d-block{
+        height: 30vw;
+    }
+    .carousel-item img{
+        margin-left: 25vw;
+    }
+    .row>* {
+        padding-right:0%;
+   }
+   .card-img-overlay {
+       background: linear-gradient(90deg, rgb(0 0 0 / 96%) 0%, rgba(0,0,0,0.7903536414565826) 32%, rgb(193 193 193 / 0%) 100%);
+       top: auto;
+   }
+   .bg-ggb{
+       background-color:#6a9277 ;
+   }
+   #estrellas{
+       width: 90%;
+       margin: auto;
+   }
+   
+.div4{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    ul{
+        position: fixed;
+        padding-right: 1rem;
+        padding-left: 0rem;
+        li{
+            margin-bottom: 4vh;
+            margin-top: 2vh;
+             img.redess{
+                width: 4vw;
+                &:hover{
+                    animation: rotation 2s  infinite linear ;
+                    animation-timing-function: ease;
+                }
+            }
+        }
+    }
+}
+ 
+ 
+.img-muestra {
+    img{
+        width: 30%;
+        margin-left: 10px;
+        box-shadow: 6px 7px 10px 0px black;
+        z-index: 1;
+        &:hover{
+            z-index: 1;
+            margin-left: 10px;
+            box-shadow: 6px 7px 10px 0px black;
+            transition: all;
+            transition:40ms;
+            opacity: 80%;
+        }
+    }
+    a{
+        margin-top: 10px;
+        display: block !important;
+    }
+}
+}
+ 

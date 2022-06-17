@@ -1,0 +1,37 @@
+#instalaciones{
+    display:flex;
+    flex-flow: row wrap;
+    border-bottom: 3px solid #3a240e;
+    justify-content: space-evenly;
+    img{
+        width: 30%;
+        height: auto;
+        box-shadow:-8px 10px 13px 2px #3a240e;
+        &:hover{
+            animation: 1s linear infinite;
+            animation-name: elevar;
+            animation-timing-function: ease;
+            z-index: 1;
+        }
+    }
+}
+#gal{
+    width: 90%;
+    margin:auto ;
+}
+#invi{
+    background-color: #fad4a8;
+    display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+#videos{
+    display: flex;
+    margin-top: 15px;
+    background-color: #222222;
+    padding: 10px;
+    justify-content: center;
+   
+}
+

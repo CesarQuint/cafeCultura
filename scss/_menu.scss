@@ -1,0 +1,15 @@
+.newmenu{
+    margin-top: 10px;
+    flex-flow: row wrap;
+    align-items: center;
+    img{
+        width: 40%;
+        margin-left: 1vw;
+    }
+}
+ 
+#mainEvent{
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+}
