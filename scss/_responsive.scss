@@ -55,25 +55,29 @@
             width: 100%;
             height: 10vh;
         }
-        .div4{
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: center;
-            ul{
-                flex-flow: row nowrap;
-                position: initial;
-                width: 100%;
+        body{
+            .div4{
+                position: inherit;
                 display: flex;
-                justify-content: space-evenly;
-                li{ img{
-                    width: 6vw;
-                    height: 4vh;
+                flex-flow: row wrap;
+                justify-content: center;
+                ul{
                     display: flex;
                     flex-flow: row wrap;
-                }
+                    position: inherit;
+                    width: 100%;
+                    justify-content: space-evenly;
+                    li{ img{
+                        width: 6vw;
+                        height: 4vh;
+                        display: flex;
+                        flex-flow: row wrap;
+                    }
+                    }
                 }
             }
         }
+       
         .newmenu{
             display: flex;
             flex-flow: column wrap;
@@ -110,25 +114,29 @@
             width: 100%;
             height: 10vh;
         }
-        .div4{
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: center;
-            ul{
-                flex-flow: row nowrap;
-                position: initial;
-                width: 100%;
+        body{
+            .div4{
+                position: inherit ;
                 display: flex;
-                justify-content: space-evenly;
-                li{ img{
-                    width: 5vw;
-                    height: 4vh;
+                flex-flow: row wrap;
+                justify-content: center;
+                ul{
                     display: flex;
                     flex-flow: row wrap;
-                }
+                    position: inherit;
+                    width: 100%;
+                    justify-content: space-evenly;
+                    li{ img{
+                        width: 6vw;
+                        height: 4vh;
+                        display: flex;
+                        flex-flow: row wrap;
+                    }
+                    }
                 }
             }
         }
+       
         .newmenu{
             display: flex;
             flex-flow: column wrap;

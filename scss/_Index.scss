@@ -13,11 +13,17 @@ body{
         color: whitesmoke;
         border-bottom: 1px solid #c79c37;
     }
-    h2{
-        text-shadow: -2px 1px 3px #201204;
-        color: #ff275e;
+    .encabezado{
+        /*Extend*/
+        text-shadow: -2px 1px 3px #dadada;
         padding: 5px 12px 5px 12px;
-   
+    }
+    h2{
+       @extend.encabezado;
+        color: #ff275e; 
+    }
+    h3{
+        @extend.encabezado
     }
     #encabezado{
         background-image:linear-gradient(rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.363)), url('https://apasionados-por-el-cafe.s3.amazonaws.com/wp-content/uploads/2018/12/De-donde-se-alimenta-el-cafe.png') ;
@@ -31,9 +37,14 @@ body{
         color: #eeeeee;
         text-shadow: -4px 2px 3px black;
     }
+    @mixin sizes($width,$height,$rad) {
+        /*Mixin*/
+        height:$height ;
+        width:$width ;
+        border-radius: $rad;
+    }
     #logo{
-    width: 6rem;
-    border-radius: 50%;
+    @include sizes(6rem,6rem ,50% );
     border: 5px solid #0f0f0f;
     box-shadow: 0px 6px 11px rgb(255, 255, 255);
     }
@@ -71,6 +82,7 @@ body{
         padding-right: 1rem;
         padding-left: 0rem;
         li{
+            list-style: none;
             margin-bottom: 4vh;
             margin-top: 2vh;
              img.redess{
@@ -105,5 +117,18 @@ body{
         display: block !important;
     }
 }
+$bg: ( 
+        bg01: #65a8db,
+        bg02:  #2d663e,
+        bg03: #C25E30
+); 
+
+@each $cl, $color in $bg {
+   .btn--#{$cl} {
+    /*Aplicacion de Maps*/
+       background-color: $color;
+   }
+}
+
 }
  

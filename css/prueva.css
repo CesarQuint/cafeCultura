@@ -15,10 +15,13 @@ body li a:hover {
   color: whitesmoke;
   border-bottom: 1px solid #c79c37;
 }
-body h2 {
-  text-shadow: -2px 1px 3px #201204;
-  color: #ff275e;
+body .encabezado, body h3, body h2 {
+  /*Extend*/
+  text-shadow: -2px 1px 3px #dadada;
   padding: 5px 12px 5px 12px;
+}
+body h2 {
+  color: #ff275e;
 }
 body #encabezado {
   background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.363)), url("https://apasionados-por-el-cafe.s3.amazonaws.com/wp-content/uploads/2018/12/De-donde-se-alimenta-el-cafe.png");
@@ -33,6 +36,8 @@ body #encabezado {
   text-shadow: -4px 2px 3px black;
 }
 body #logo {
+  /*Mixin*/
+  height: 6rem;
   width: 6rem;
   border-radius: 50%;
   border: 5px solid #0f0f0f;
@@ -73,6 +78,7 @@ body .div4 ul {
   padding-left: 0rem;
 }
 body .div4 ul li {
+  list-style: none;
   margin-bottom: 4vh;
   margin-top: 2vh;
 }
@@ -100,6 +106,18 @@ body .img-muestra img:hover {
 body .img-muestra a {
   margin-top: 10px;
   display: block !important;
+}
+body .btn--bg01 {
+  /*Aplicacion de Maps*/
+  background-color: #65a8db;
+}
+body .btn--bg02 {
+  /*Aplicacion de Maps*/
+  background-color: #2d663e;
+}
+body .btn--bg03 {
+  /*Aplicacion de Maps*/
+  background-color: #C25E30;
 }
 
 /*Index*/
@@ -214,19 +232,20 @@ body .img-muestra a {
     width: 100%;
     height: 10vh;
   }
-  .div4 {
+  body .div4 {
+    position: inherit;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
-  .div4 ul {
-    flex-flow: row nowrap;
-    position: initial;
-    width: 100%;
+  body .div4 ul {
     display: flex;
+    flex-flow: row wrap;
+    position: inherit;
+    width: 100%;
     justify-content: space-evenly;
   }
-  .div4 ul li img {
+  body .div4 ul li img {
     width: 6vw;
     height: 4vh;
     display: flex;
@@ -269,20 +288,21 @@ body .img-muestra a {
     width: 100%;
     height: 10vh;
   }
-  .div4 {
+  body .div4 {
+    position: inherit;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
-  .div4 ul {
-    flex-flow: row nowrap;
-    position: initial;
-    width: 100%;
+  body .div4 ul {
     display: flex;
+    flex-flow: row wrap;
+    position: inherit;
+    width: 100%;
     justify-content: space-evenly;
   }
-  .div4 ul li img {
-    width: 5vw;
+  body .div4 ul li img {
+    width: 6vw;
     height: 4vh;
     display: flex;
     flex-flow: row wrap;
